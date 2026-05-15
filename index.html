@@ -650,9 +650,9 @@
   <section class="hero">
     <p class="hero-eyebrow">Wheeliemix Plugins — AAX · Pro Tools</p>
     <h1 class="hero-title">Patch<em>bay</em></h1>
-    <p class="hero-sub">Insert your outboard hardware into any Pro Tools session — with full latency compensation, dry/wet blending, and zero routing constraints.</p>
+    <p class="hero-sub">The Insert I/O plugin we should have had since the beginning.</p>
     <div class="hero-cta">
-      <a href="#waitlist" class="btn-primary">Join the Waitlist</a>
+      <a href="#waitlist" class="btn-primary">Download The Demo</a>
       <a href="#features" class="btn-ghost">Explore Features</a>
     </div>
     <div class="hero-scroll">
@@ -667,7 +667,7 @@
   <div class="section">
     <p class="section-label">What it does</p>
     <h2 class="section-title">Your outboard gear,<br><em>finally integrated.</em></h2>
-    <p class="section-body">Patchbay bridges the gap between your analog hardware and Pro Tools. It measures and compensates for your outboard's round-trip latency automatically, routes audio across interfaces when cables are connected, and makes any piece of hardware fully dry/wet compatible — things that were never possible with a standard I/O insert.</p>
+    <p class="section-body">Patchbay bridges is the I/O insert plugin I needed for a while. It measures and compensates for your outboard's round-trip latency automatically, routes audio across interfaces when cables are connected, and makes any piece of hardware fully dry/wet compatible — on top of many other things that were not possible before.</p>
   </div>
 
   <div class="divider"></div>
@@ -676,34 +676,34 @@
   <div class="split">
     <div class="split-block">
       <h3>The Problem</h3>
-      <p>Pro Tools' native I/O insert is rigid. No latency compensation, no dry/wet control, no cross-interface routing, no pre-emphasis. Every session with outboard hardware becomes a manual calibration exercise — and the results are rarely consistent.</p>
+      <p>Pro Tools' native I/O insert is... let's say limited. You can't even bypass it (you have to deactivate it) and you can't even pair I/O that are not close to each other AND in odd/even order (1-2, 3-4 etc.).</p>
     </div>
     <div class="split-block">
       <h3>The Solution</h3>
-      <p>Patchbay handles everything automatically. It calculates your outboard latency and compensates for it in real time, links send and return gain for coherent drive control, and gives you the phase alignment and polarity tools professionals expect.</p>
+      <p>Patchbay can do so much more. Any input/output you want (why not Input 1 L / Input 14 R for example). With a 3 stages PING feature, it calculates your outboard latency and compensates for it in real time (the 3 PING avoids potential calculation error, to override ProTools hectic behavior), links send and return gain to drive into your gear (you and even automate that!), pre-emphasis/de-emphasis EQ to help your gear react more like you would want it to be. Polarity, phase aligment tool, you can even use Patchbay on your Masterbus and route it to your laptop speakers for a quick check without having to change ProTools I/O and wait for the session to reload.</p>
     </div>
   </div>
 
   <!-- FEATURES -->
   <section class="features-section" id="features">
     <div class="features-inner">
-      <p class="section-label">Every detail considered</p>
-      <h2 class="section-title">What's inside</h2>
+      <p class="section-label">Finally!</p>
+      <h2 class="section-title">What does it do?</h2>
       <div class="features-grid">
         <div class="feature-item">
           <p class="feature-num">01</p>
           <p class="feature-title">Automatic Latency Compensation</p>
-          <p class="feature-desc">Measures round-trip latency of your outboard and compensates precisely — every time, every session.</p>
+          <p class="feature-desc">Measures round-trip latency of your outboard and compensates precisely with its 3 PING process to avoid any miscalculation.</p>
         </div>
         <div class="feature-item">
           <p class="feature-num">02</p>
           <p class="feature-title">Linked Send / Return</p>
-          <p class="feature-desc">Drive your hardware consistently. Send and return levels are linked so pushing into the gear stays musically coherent.</p>
+          <p class="feature-desc">Drive into your hardware insert. You can even automate this, push it more in the choruses for example.</p>
         </div>
         <div class="feature-item">
           <p class="feature-num">03</p>
           <p class="feature-title">Dry / Wet Blending</p>
-          <p class="feature-desc">Any outboard piece becomes parallel-compatible. Blend the processed signal with the dry signal at any ratio.</p>
+          <p class="feature-desc">Any outboard pchain becomes parallel-compatible. Blend the processed signal with the dry without any phase issue.</p>
         </div>
         <div class="feature-item">
           <p class="feature-num">04</p>
@@ -713,12 +713,17 @@
         <div class="feature-item">
           <p class="feature-num">05</p>
           <p class="feature-title">Pre-emphasis / De-emphasis EQ</p>
-          <p class="feature-desc">Shape the signal before and after your hardware for surgical tonal control without external processing.</p>
+          <p class="feature-desc">Shape the signal before and after your hardware. Can sometimes save you to buy the sidechain high-pass filter version of your gear ;).</p>
         </div>
         <div class="feature-item">
           <p class="feature-num">06</p>
           <p class="feature-title">Phase Alignment & Polarity</p>
-          <p class="feature-desc">Fine-grained phase alignment tool and polarity switch. Eliminate comb filtering in any outboard chain.</p>
+          <p class="feature-desc">Fine-grained phase alignment tool and polarity switch in case of issues.</p>
+        </div>
+        <div class="feature-item">
+          <p class="feature-num">07</p>
+          <p class="feature-title">Auto-Gain</p>
+          <p class="feature-desc">A basic gain match function to avoid getting fooled by loudness and help gain staging when using dry/wet.</p>
         </div>
       </div>
     </div>
@@ -729,8 +734,8 @@
     <div class="pricing-section">
       <div>
         <p class="section-label">Pricing</p>
-        <h2 class="section-title">One price.<br><em>Yours forever.</em></h2>
-        <p class="section-body" style="font-size:0.95rem">No subscription. No server dependency. Your license is issued personally, works offline permanently, and will still work in ten years whether or not Wheeliemix Plugins exists.</p>
+        <h2 class="section-title">Don't worry it's not too crazy<br><em>Valhalla DSP style.</em></h2>
+        <p class="section-body" style="font-size:0.95rem">No subscription. No crazy prices fluctuations, your license is issued personally, works offline permanently, and will still work in ten years whether or not Wheeliemix Plugins exists.</p>
       </div>
       <div class="pricing-card">
         <p class="pricing-amount"><sup>£</sup>50</p>
@@ -740,10 +745,9 @@
           <li>Personally issued license within 24h</li>
           <li>Machine-locked, offline activation</li>
           <li>Free updates for life</li>
-          <li>Direct developer support</li>
         </ul>
-        <a href="#waitlist" class="btn-primary" style="display:block; text-align:center">Join the Waitlist</a>
-        <p class="pricing-student">Student discount available — get in touch</p>
+        <a href="#waitlist" class="btn-primary" style="display:block; text-align:center">Grab the demo</a>
+        <p class="pricing-student">Human scale plugin company, so be human with me please :)</p>
       </div>
     </div>
   </section>
@@ -754,26 +758,26 @@
   <section class="how-section" id="how">
     <div class="how-inner">
       <p class="section-label">Licensing</p>
-      <h2 class="section-title">Activation,<br><em>done properly.</em></h2>
+      <h2 class="section-title">Activation,<br><em>Do in a human fashion.</em></h2>
       <div class="steps">
         <div class="step">
           <p class="step-num">01</p>
           <div class="step-content">
-            <h4>You join the waitlist</h4>
-            <p>Licenses are issued in batches. When a drop opens, waitlist members are notified first. No open storefront, no mass distribution.</p>
+            <h4>Grab the demo, try it, wanna buy it</h4>
+            <p>Licenses are issued in batches and I will authorize all licenses myself, no mass distribution, no automation, only human management activities.</p>
           </div>
         </div>
         <div class="step">
           <p class="step-num">02</p>
           <div class="step-content">
             <h4>Your card is held, not charged</h4>
-            <p>At checkout, your payment is authorised but not captured. You are only charged once your license has been delivered — not before.</p>
+            <p>At checkout, your payment is authorised but not captured. You are only charged once your license has been delivered — of course!</p>
           </div>
         </div>
         <div class="step">
           <p class="step-num">03</p>
           <div class="step-content">
-            <h4>Your license is personally generated</h4>
+            <h4>Boutique style, human scale: Your license is personally generated</h4>
             <p>Within 24 hours, your unique activation code is generated by hand, signed to your machine, and emailed directly to you.</p>
           </div>
         </div>
@@ -781,7 +785,7 @@
           <p class="step-num">04</p>
           <div class="step-content">
             <h4>Paste it. Done.</h4>
-            <p>Open Patchbay, enter your code, click activate. The plugin runs fully offline from that moment — permanently, with no further internet connection ever required.</p>
+            <p>Open Patchbay, enter your code, click activate. The plugin runs fully offline from that moment — permanently. And voilà.</p>
           </div>
         </div>
       </div>
@@ -790,20 +794,20 @@
 
   <!-- WAITLIST -->
   <section class="waitlist-section" id="waitlist">
-    <p class="section-label" style="justify-content:center">Limited availability</p>
-    <h2 class="waitlist-title">Get on the<br><em>list.</em></h2>
-    <p class="waitlist-sub">Licenses drop in batches. Leave your email and you'll be the first to know when the next batch opens.</p>
+    <p class="section-label" style="justify-content:center">Human scale management, bear with me :).</p>
+    <h2 class="waitlist-title">Try it<br><em>now.</em></h2>
+    <p class="waitlist-sub">Licenses drop when I do them. Try the plugin and ask for a full license if you like it.</p>
     <form class="waitlist-form" onsubmit="handleSubmit(event)">
       <input class="waitlist-input" type="email" placeholder="your@email.com" required />
-      <button class="waitlist-btn" type="submit">Notify me</button>
+      <button class="waitlist-btn" type="submit">I want it now man, c'mon!</button>
     </form>
-    <p class="waitlist-fine">No spam. One email per drop. Unsubscribe any time.</p>
+    <p class="waitlist-fine">No spam (I am just one guy and I hate marketing as much as you).</p>
   </section>
 
   <!-- FOOTER -->
   <footer>
     <span class="footer-logo">Wheeliemix Plugins</span>
-    <span class="footer-copy">© 2025 Wheeliemix Plugins. All rights reserved.</span>
+    <span class="footer-copy">© 2026 Wheeliemix Plugins. All rights reserved.</span>
   </footer>
 
   <script>
